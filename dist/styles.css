@@ -1,0 +1,35 @@
+body {
+  background-color: white;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .icon-container {
+  width: 120px;
+  height: 120px;
+  background-color: lightgoldenrodyellow;
+  border: 1px solid yellowgreen;
+  margin: 10px;
+}
+
+.container .icon-container .svg-icon {
+  width: 60px;
+  height: 60px;
+  padding: 30px;
+  -webkit-transition: -webkit-transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+  transition: -webkit-transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out, transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out, transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+}
+
+.container .icon-container:hover .svg-icon {
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=styles.css.map */
